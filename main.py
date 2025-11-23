@@ -8,7 +8,6 @@ int(bal)
 int(saving)
 int(accident)
 
-
 def main():
     global bal
     global saving
@@ -56,11 +55,6 @@ def main():
         savings_label.config(text=f'Savings Calculator:{saving}')
         accident_label.config(text=f'Accident_due : {accident}')
         balance_label.config(text=f'Current Balance: {bal}')
-
-
-
-
-
 
 
     root = tk.Tk()
